@@ -1,0 +1,41 @@
+# =========================
+# Maven
+# =========================
+target/
+
+# =========================
+# Eclipse
+# =========================
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# =========================
+# TestNG / Selenium Reports
+# =========================
+test-output/
+reports/
+allure-results/
+allure-report/
+
+# =========================
+# Logs & Screenshots
+# =========================
+*.log
+logs/
+screenshots/
+failed-screenshots/
+
+# =========================
+# Environment / Config
+# =========================
+.env
+config.properties
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
